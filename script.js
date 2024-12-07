@@ -101,8 +101,3 @@ function updateLabels() {
     labels[i].innerText = bars[i].style.height.replace('px', ''); // Update the number label
   }
 }
-
-function displaySortedArray(arr) {
-  const sortedArrayContainer = document.getElementById('sortedArrayContainer');
-  sortedArrayContainer.innerHTML = 'Sorted Array: ' + arr.join(', '); // Display the sorted array as a string
-}
