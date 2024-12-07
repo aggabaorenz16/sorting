@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: green;
+  padding: 1rem;
+}
+.container > h1 {
+  color: white;
+  font-size: 23px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+}
+.main {
+  width: 100%;
+  display: grid;
+  height: 85.6vh;
+  place-items: center;
+}
+.main > .inputfield {
+  display: grid;
+  justify-content: center;
+}
+.main > .inputfield > label {
+  padding: 1rem;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+}
+.main > .inputfield > input {
+  padding: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-size: 15px;
+}
+.main > .inputfield > .btnSort {
+  padding: 1rem;
+  margin-top: 100px;
+}
+.main > .inputfield > .btnSort button {
+  padding: 1rem;
+  color: white;
+  width: 100%;
+  outline: none;
+  background-color: green;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  border: none;
+}
+.main > .inputfield > .btnSort button:hover {
+ background-color: rgba(0, 128, 0, 0.786);
+}
+.footer {
+  display: grid;
+  justify-content: center;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+}
+#result {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 23px;
+  display: flex;
+  justify-content: flex-start; /* Align bars to the left */
+  align-items: flex-end;
+  gap: 2px;
+  height: 200px; /* Set a fixed height for the visualization */
+}
+
+.bar {
+  width: 40px;
+  background-color: rgba(0, 128, 0, 0.8);
+  transition: height 0.5s ease; /* Smooth transition for height change */
+}
