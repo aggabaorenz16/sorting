@@ -48,7 +48,7 @@ function bubbleSortWithAnimation(arr) {
         }
 
         j++; // Move to the next pair of elements
-        setTimeout(animateSort, 500); // Add a delay for better visualization of sorting steps
+        setTimeout(animateSort, 1000); // Add a delay for better visualization of sorting steps
       } else {
         i++; // Move to the next pass through the array
         j = 0; // Reset the comparison index to start from the beginning
