@@ -113,9 +113,3 @@ function updateLabels() {
     labels[i].innerText = bars[i].style.height.replace('px', ''); // Remove 'px' from the height string and update the label
   }
 }
-
-// Function to display the sorted array after sorting is completed
-function displaySortedArray(arr) {
-  const sortedArrayContainer = document.getElementById('sortedArrayContainer');
-  sortedArrayContainer.innerHTML = 'Sorted Array: ' + arr.join(', '); // Display the sorted array as a string
-}
