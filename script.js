@@ -8,7 +8,7 @@ function sorting() {
 
     // Check if input matches the required integer format
     if (!regex.test(input.trim())) {
-        result.innerHTML = 'Please enter valid integers, separated by commas.';
+        result.innerHTML = 'Please enter valid input.';
         sortedArrayContainer.innerHTML = '';
         return;
     }
