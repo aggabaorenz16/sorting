@@ -66,34 +66,16 @@
   font-style: normal;
 }
 #result {
-  font-family: "Roboto Condensed", sans-serif;
-  font-style: normal;
-  font-size: 15px;
-  margin-top: 23px;
-  display: flex;
-  justify-content: flex-start; /* Align bars to the left */
-  align-items: flex-end;
-  gap: 2px;
-  height: 200px; /* Set a fixed height for the visualization */
-}
-
-.bar {
-  width: 40px;
-  background-color: rgba(0, 128, 0, 0.8);
-  transition: height 0.5s ease; /* Smooth transition for height change */
+    margin-top: 20px;
 }
 .bar-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bar {
+    transition: height 0.5s, background-color 0.5s;
 }
 .bar-label {
-  font-size: 12px;
-  margin-top: 5px; /* Space between bar and label */
-}
-#sortedArrayContainer {
-  margin-top: 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center; /* Center the sorted array message */
+    margin-top: 5px;
 }
