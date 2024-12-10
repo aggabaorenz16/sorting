@@ -4,28 +4,24 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sort with Animation</title>
+  <title>Bubble Sort with Animation</title>
 </head>
 <body>
   <div class="container">
-    <h1>
-      Bubble Sort with Animation
-    </h1>
+    <h1>Bubble Sort with Animation</h1>
   </div>
   <div class="main">
     <div class="inputfield">
-      <label for="input">Enter a number use comma for Separate</label>
-      <input type="text" id="arrayInput" placeholder="Ex : 1, 2, 3, 4, 5">
+      <label for="arrayInput">Enter numbers separated by commas:</label>
+      <input type="text" id="arrayInput" placeholder="Ex: 1, 2, 3, 4, 5">
       <div class="result" id="result"></div>
       <div id="sortedArrayContainer"></div>
       <div class="btnSort">
-        <button onclick="sorting()">Start Sorting</button>
+        <button onclick="sorting('asc')">Sort Ascending</button>
+        <button onclick="sorting('desc')">Sort Descending</button>
       </div>
     </div>
   </div>
-<!--  <div class="footer">
-    <footer>Member : Aggabao : Pascual : Tesorero : Alegano : Gutaba </footer>
-  </div> -->
 </body>
 <script src="script.js"></script>
 </html>
